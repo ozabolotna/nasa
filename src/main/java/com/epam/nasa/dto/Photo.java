@@ -1,10 +1,8 @@
 package com.epam.nasa.dto;
 
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
-@Setter
-@ToString
+@Data
 public class Photo {
     private int id;
     private int sol;

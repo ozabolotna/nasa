@@ -1,12 +1,10 @@
 package com.epam.nasa.dto;
 
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
 import java.util.List;
 
-@Setter
-@ToString
+@Data
 public class Rover {
     private int id;
     private String name;

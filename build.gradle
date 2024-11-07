@@ -23,12 +23,15 @@ dependencies {
 	implementation 'org.apache.camel.springboot:camel-endpointdsl-starter:4.8.1'
 	implementation 'org.apache.camel.springboot:camel-http-starter:4.8.1'
 	implementation 'org.apache.camel.springboot:camel-jackson-starter:4.8.1'
+	implementation 'org.apache.camel.springboot:camel-activemq6-starter:4.8.1'
+	implementation 'org.apache.camel.springboot:camel-direct-starter:4.8.1'
 
 	compileOnly 'org.projectlombok:lombok:1.18.34'
 	annotationProcessor 'org.projectlombok:lombok:1.18.34'
 
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.apache.camel:camel-test-spring-junit5:4.8.1'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
